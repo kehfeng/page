@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <img src="assets/profile.png" alt="Profile Picture" class="profile-pic">
+        </div>
+        <div class="header-right">
+            <div class="header-text">
+                <h1>Emily Feng</h1>
+            </div>
+            <p>Welcome to my personal website!! I am an aspiring Data Scientist and Junior in Applied Mathematics at the University of Washington, majoring in Applied Math - Data Science. </p>
+            <p>I specialize in using mathematical models, statistical techniques, and machine learning algorithms to derive actionable insights from complex datasets.
+                I am passionate about solving real-world problems through data-driven solutions, I am eager to contribute to impactful projects in a collaborative environment.
+                Here you will find a collection of my recent work.</p>
+        </div>
+    </header>
+    <section class="projects">
+        <h2>AI, ML, and Data Visualization</h2>
+        <div class="container">
+            <div class="project">
+                <a href="https://github.com/username/project1" target="_blank">
+                    <img src="assets/asl.png" alt="Project 1">
+                    <h3>ASL Alphabet Recognition Project</h3>
+                </a>
+                <p> SVC, XGBoost, ANNs: Developed a project to translate American Sign Language (ASL) for individuals with hearing difficulties using Leap Motion for gesture recognition.</p>
+            </div>
+            <div class="project">
+                <a href="https://trininol.shinyapps.io/info201/" target="_blank">
+                    <img src="assets/rshiny.png" alt="Project 1">
+                    <h3>Popularity of New Articles</h3>
+                </a>
+                <p>R Shiny: A webpage that analyzes which platform is the preferred source for the general public to get their news.</p>
+            </div>
+            <div class="project">
+                <a href="https://observablehq.com/d/f8fd2ad05f7aea78" target="_blank">
+                    <img src="assets/dogs.gif" alt="Project 2">
+                    <h3>Status and Locations of Shelter Dogs</h3>
+                </a>
+                <p>Observable, Vegalite, and D3: A project visualizing the location and status of shelter dogs aimed to persuade potential dog buyers to adopt dogs instead.</p>
+            </div>
+            <div class="project">
+                <a href="https://docs.google.com/document/d/1HibC1_gR9YysiBNvNrzw0fyMqHaeKJDtpRk3HAUSyY4/edit#heading=h.u2em9tyyehwk" target="_blank">
+                    <img src="assets/global_happiness.png" alt="global_happiness">
+                    <h3>Global Happiness Trends</h3>
+                </a>
+                <p>Python and Sklearn: A report on the factors that hold weight in the changes of global happiness scores with consideration of the pandemic with visualization and prediction with machine learning.</p>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+    <div class="video-container">
+        <iframe title="vimeo-player" src="https://player.vimeo.com/video/638409461?h=57a2772924" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <section class="projects">
+        <h2>Contests</h2>
+        <div class="container">
+            <div class="project">
+                <a href="https://devpost.com/software/uw-mind-hub?ref_content=user-portfolio&ref_feature=in_progress" target="_blank">
+                    <img src="assets/mindhub.png" alt="Project 4">
+                    <h3>UW Mind Hub</h3>
+                </a>
+                <p> Hackathon Contest Entry - Cybersource Visa Sponsership Award: a prototype app aimed to increase student wellness and connectivity.</p>
+            </div>
+            <div class="project">
+                <a href="https://www.figma.com/proto/6htH29GB7P4RVUOpUs5xM0/Prototype?node-id=0-1&t=1TrsxozYBFyZRmrw-1" target="_blank">
+                    <img src="assets/eco.png" alt="Project 5">
+                    <h3>Eco</h3>
+                </a>
+                <p>Hackathon Contest Entry - Second Place: A Green Logistics project on how construction businesses can contribute to a carbon neutral environment by creating an platform for them to mangage their resource allocations.</p>
+            </div>
+            <!-- Add more projects here -->
+        </div>
+    </section>
+
+<!-- Section for single project showcase -->
+<section class="single-project">
+    <h2 class="title">Arduino Projects</h2>
+    <div class="container2">
+        <div class="project-details">
+            <h2>Vigilance</h2>
+            <p>Vigilance explores the concept of surveillance. The goal of the interactor is to grab the treasure from the stand without being caught by the guard.</p>
+        </div>
+        <div class="project-media">
+            <div class="media-selector">
+                <img src="assets/Arduino/PROJECT_1.jpg" alt="Thumbnail 1" data-media="assets/Arduino/PROJECT_1.jpg" data-media-type="image" onclick="updateSelectedMedia(this);">
+                <img src="assets/Arduino/PROJECT_1.png" alt="Thumbnail 2" data-media="assets/Arduino/PROJECT_1.mp4" data-media-type="video" data-poster="assets/Arduino/PROJECT_1.jpg" onclick="updateSelectedMedia(this);">
+            </div>
+            <div class="selected-media">
+                <img id="selected-media-1" src="assets/Arduino/PROJECT_1.jpg" alt="Selected Media">
+                <video id="selected-video-1" src="assets/Arduino/PROJECT_1.mp4" controls poster="assets/Arduino/PROJECT_1.png" style="display: none;"></video>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="single-project">
+    <div class="container2">
+        <div class="project-details">
+            <h2>Hidden Box in the Forest</h2>
+            <p>As you go into the forest, you see a magical house nearby. It greats you with welcoming, cheerful music as you approach. There is a strange red glow in one of the houses. You think that there is hidden treasure inside and try to pull open the house of the door to see whats inside, but you’ve poked too far, the music switches to a terrible slow sound and the lights close. The work expresses what would happen is one were to get too close or involved in something that that know nothing about.</p>
+        </div>
+        <div class="project-media">
+            <div class="media-selector">
+                <img src="assets/Arduino/PROJECT_2.jpg" alt="Thumbnail 1" data-media="assets/Arduino/PROJECT_2.jpg" data-media-type="image" onclick="updateSelectedMedia(this);">
+                <img src="assets/Arduino/P2.jpg" alt="Thumbnail 2" data-media="assets/Arduino/P2.jpg" data-media-type="image" onclick="updateSelectedMedia(this);">
+                <img src="assets/Arduino/PROJECT_2.png" alt="Thumbnail 3" data-media="assets/Arduino/PROJECT_2.mp4" data-media-type="video" data-poster="assets/Arduino/PROJECT_2.jpg" onclick="updateSelectedMedia(this);">
+            </div>
+            <div class="selected-media">
+                <img id="selected-media-2" src="assets/Arduino/PROJECT_2.jpg" alt="Selected Media">
+                <video id="selected-video-2" src="assets/Arduino/PROJECT_2.mp4" controls poster="assets/Arduino/PROJECT_2.jpg" style="display: none;"></video>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
